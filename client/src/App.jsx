@@ -18,11 +18,11 @@ const App = () => {
       element: <ViewCars title='BOLT BUCKET | Custom Cars' />
     },
     {
-      path: '/customcars/:id',
+      path: '/cars/:id',
       element: <CarDetails title='BOLT BUCKET | View' />
     },
     {
-      path: '/edit/:id',
+      path: '/cars/:id/edit',
       element: <EditCar title='BOLT BUCKET | Edit' />
     }
   ])
